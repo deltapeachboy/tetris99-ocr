@@ -4,8 +4,7 @@ import numpy as np
 import easyocr
 import pandas as pd
 
-st.title("テトリス99 解析ツール（ゴールドスタンダード版）")
-st.write("過剰な前処理を排除し、最も認識率の安定したシャープ拡大のみを適用した最終完成版です。")
+st.title("テトリス99　リザルド画面抽出ツール")
 
 uploaded_file = st.file_uploader("リザルト画像をアップロードしてください", type=["png", "jpg", "jpeg"])
 
